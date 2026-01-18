@@ -22,7 +22,7 @@ Unlike other time trackers, it requires **zero manual input**. Just run it, forg
 ## 🚀 Quick Start
 
 ### Option 1: Download Binary (Recommended)
-Go to the [Releases](https://github.com/你的用户名/lazy-monitor/releases) page and download the latest executable.
+Go to the [Download Latest Release](../../releases/latest) page and download the latest executable.
 
 ### Option 2: Build from Source
 If you have Rust installed:
