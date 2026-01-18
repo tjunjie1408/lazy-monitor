@@ -1,0 +1,29 @@
+name: Release Build
+
+on:
+  push:
+    tags:
+      - 'v*'
+jobs:
+  build-release:
+    name: Build Release
+    runs-on: windows-latest 
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
+          override: true
+
+      - name: Build Binary
+        run: cargo build --release --verbose
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: target/release/lazy-monitor.exe 
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
