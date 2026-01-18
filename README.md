@@ -65,5 +65,3 @@ This project demonstrates core Systems Engineering concepts:
 ## 📄 License
 
 This project is licensed under the MIT License.
-
-```
