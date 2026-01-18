@@ -1,1 +1,8 @@
-/target
+target
+/debug
+/release
+*.exe
+*.pdb
+log.csv
+report.html
+.DS_Store
