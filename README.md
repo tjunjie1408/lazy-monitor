@@ -59,9 +59,6 @@ This project demonstrates core Systems Engineering concepts:
 
 ```
 
-**Dashboard:**
-*(Here you can put a screenshot of your report.html later)*
-
 ## 📄 License
 
 This project is licensed under the MIT License.
